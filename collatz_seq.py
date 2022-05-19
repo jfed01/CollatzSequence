@@ -12,7 +12,8 @@ def main():
     sys.exit()
   if number <= 0:
     print("You must enter a positve integer.")
-
+    sys.exit()
+    
   while True:
     if number:
       print(number)
