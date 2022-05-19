@@ -2,7 +2,7 @@ import sys
 from collatz import collatz
 
 def main():
-  print("Let's explore the Collatz Sequence. Enter a number that is any integer to begin the sequence.")
+  print("Let's explore the Collatz Sequence. Enter a number that is any positive integer to begin the sequence.")
   n = input()
   print("Collatz Sequence starting at", n)
   try:
@@ -10,7 +10,10 @@ def main():
   except ValueError:
     print("You did not enter an integer.")
     sys.exit()
-
+  if number <= 0:
+    print("You must enter a positve integer.")
+    sys.exit()
+    
   while True:
     if number:
       print(number)
