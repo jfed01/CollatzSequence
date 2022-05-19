@@ -3,6 +3,6 @@ collatz(number):
   if number % 2 == 0:   # number is even
     return number // 2
   elif number % 2 == 1:   # number is odd
-    return number * 3 - 1
+    return number * 3 + 1
   else:
     return
