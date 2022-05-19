@@ -3,7 +3,7 @@ Explore the Collatz Sequence
 
 This program will explore what is called the Collatz Sequence. This is sometimes called the simplest impossible math problem.
 
-The input will be a number that can be any integer. 
+The input will be a number that can be any positive non-zero integer. 
 
 If the number is even, the program should print the number // 2. 
 If the number is odd it will print 3 * the number + 1.  
